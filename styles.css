@@ -1,0 +1,250 @@
+body {
+    width: 90%;
+    margin: 0px auto;
+}
+
+h1, h2 {
+    font-family: 'Roboto', Sans-Serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+p, li {
+    font-Family: 'Lora', Serif;
+}
+
+navigation ul {
+    list-style-type: none;
+    
+}
+
+navigation li {
+    display: inline-block;
+    
+}
+
+navigation li+li::before {
+    content:">";
+    padding: 10px;
+    text-decoration: none;
+}
+
+navigation a {
+    text-decoration: none;
+}
+
+navigation a:visited {
+    color: black;
+}
+
+navigation a:hover {
+    color: #7CB518;
+}
+
+navigation a.on-page {
+    color: #FB6107;
+}
+
+
+
+.container {
+    border: black 2px solid;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+ul.color-blocks {
+    list-style-type: none;
+    
+}
+
+ul.color-blocks li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+
+.blaze-orange {
+    background-color: #FB6107;
+}
+
+.minion-yellow {
+    background-color: #FEDE2C;
+}
+
+.apple-green {
+    background-color: #7CB518;
+}
+ 
+.avocado {
+    background-color: #5C8001;
+}
+
+.honey-yellow {
+    background-color: #FBB02D;
+}
+
+.roboto h3, .roboto p {
+    font-family: 'Roboto Condensed', Sans-Serif;
+}
+
+.cabin h3, .cabin p {
+    font-family: 'Cabin', Sans-Serif;
+}
+
+.cinzel h3, .cinzel p {
+    font-family: 'Cinzel', Cursive;
+}
+
+.fauna-one h3, .fauna-one p {
+    font-family: 'Fauna One', Serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italics {
+    font-size: italic;
+}
+
+.fonts-container {
+    display: inline-block;
+    padding: 30px;
+    margin-right: 20px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+ul.button-block {
+    list-style-type: none;
+}
+
+ul.button-block li {
+    display: inline-block;
+ 
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius:10px;
+  margin-right: 5px;
+  transition-duration: 0.4s;
+}
+
+.out-primary {
+    border: solid 2px black;
+    color: black;
+    background-color: white;
+}
+
+.out-primary:hover {
+    color: white;
+    background-color: black;
+}
+
+.out-secondary {
+    border: solid 2px blue;
+    color: blue;
+    background-color: white;
+}
+
+.out-secondary:hover {
+    background-color: blue;
+    color: white;
+}
+
+.out-warning {
+    border: solid 2px red;
+    color: red;
+    background-color: white;
+}
+
+.out-warning:hover {
+    color: white;
+    background-color: red;
+}
+
+.out-success {
+    border: solid 2px green;
+    color: green;
+    background-color: white;
+}
+
+.out-success:hover {
+    color: white;
+    background-color: green;
+}
+
+.con-primary {
+    border: solid 2px black;
+    color: white;
+    background-color: black;
+}
+
+.con-primary:hover {
+    opacity: 0.7;
+}
+
+.con-secondary {
+    border: solid 2px blue;
+    background-color: blue;
+    color: white;
+}
+
+.con-secondary:hover {
+    opacity: 0.7;
+}
+
+.con-warning {
+    border: solid 2px red;
+    background-color: red;
+    color: white;
+}
+
+.con-warning:hover {
+    opacity: 0.7;
+}
+
+
+.con-success {
+    border: solid 2px green;
+    background-color: green;
+    color: white;
+}
+
+.con-success:hover {
+    opacity: 0.7;
+}
